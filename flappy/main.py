@@ -20,6 +20,8 @@ def welcomeScreen():
     Shows welcome images on the screen
     """
 
+
+    
     playerx = int(SCREENWIDTH/5)
     playery = int((SCREENHEIGHT - GAME_SPRITES['player'].get_height())/2)
     messagex = int((SCREENWIDTH - GAME_SPRITES['message'].get_width())/2)
